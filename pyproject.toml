@@ -1,0 +1,8 @@
+[project]
+name = "test-pilot"
+version = "0.1.0"
+description = "智能测试生成器: AST分析 + 边界值 + 回归测试"
+requires-python = ">=3.10"
+dependencies = []
+[project.scripts]
+test-pilot = "test_pilot.cli:main"
